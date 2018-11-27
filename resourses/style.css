@@ -1,0 +1,69 @@
+/*this affects entire body*/
+body {
+  background-color: black;
+  z-index: 0;
+}
+
+/*this is the header*/
+.logo {
+  background-image: url("./images/img-tea-cozy-logo.png");
+  height: 50px;
+  width: 160px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 10px;
+  opacity: .9;
+  position: fixed;
+  display: block;
+}
+
+.rhnav {
+display: flex;
+position: fixed;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-left:70%;
+width: 350px;
+}
+
+.navchil {
+font-size: 22px;
+font-family: Helvetica;
+opacity: .9;
+color: seashell;
+margin-top: 18px;
+}
+
+/*this is the main background image with its title*/
+.mainimagecont {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.mainimage {
+  display: flex;
+  background-image: url("./images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  margin-top: 69px;
+  position: absolute;
+}
+
+.ourmission {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  width: 1200px;
+  justify-content: center;
+  position: absolute;
+  background-color: black;
+  margin-top: 350px;
+}
+
+.text {
+  color: seashell;
+  text-align: center;
+  opacity: .9;
+}
