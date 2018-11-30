@@ -3,18 +3,20 @@ body {
   background-color: black;
 }
 
+
 /*this is the header*/
 .header {
-  height: 68px;
+  height: 75px;
   width: 100%;
   border-bottom: 1px solid seashell;
-  margin-top: 0;
+  margin-top: -8px;
+  margin-left: -8px;
   position: fixed;
   z-index: 2;
   background-color: black;
 }
 
-.logo {
+#logo {
   background-image: url("./images/img-tea-cozy-logo.png");
   height: 50px;
   width: 160px;
@@ -25,25 +27,28 @@ body {
   position: fixed;
   display: block;
   z-index: 3;
+  margin-top: 12px;
 }
 
-.rhnav {
-display: flex;
-position: fixed;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-margin-left:70%;
-width: 350px;
-z-index: 3;
+#rhnav {
+  display: flex;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 10%;
+  width: 100%;
+  z-index: 3;
+  opacity: .9;
 }
 
 .navchil {
-font-size: 22px;
-font-family: Helvetica;
-opacity: .9;
-color: seashell;
-margin-top: 18px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 22px;
+  font-family: Helvetica;
+  color: seashell;
+  margin-top: 25px;
 }
 
 /*this is the main background image with its title*/
@@ -58,29 +63,41 @@ margin-top: 18px;
   display: flex;
   background-image: url("./images/img-mission-background.jpg");
   height: 700px;
-  width: 1200px;
+  width: 100%;
   margin-top: 69px;
   position: absolute;
+  background-size: cover;
 }
 
 .ourmission {
   display: flex;
   flex-direction: column;
   height: 100px;
-  width: 1200px;
+  width: 100%;
   justify-content: center;
   position: absolute;
   background-color: black;
   margin-top: 350px;
   padding-top: 15px;
   padding-bottom: 10px;
+  font-size: 1.5em;
 }
-
-.text {
+   /*this is the "Our Mission" text*/
+.text1 {
   color: seashell;
   text-align: center;
   opacity: .9;
-  margin-top: 0;
+  margin-top: 15;
+  margin-bottom: 13px;
+  font-family: Helvetica;
+}
+  /*this is the text under "Our Mission"*/
+.text2 {
+  color: seashell;
+  text-align: center;
+  opacity: .9;
+  margin-top: 13px;
+  font-family: Helvetica;
 }
 
 /*this is the tea of the month section*/
@@ -101,6 +118,8 @@ margin-top: 18px;
 
 #h4 {
   margin-top: 0;
+  font-family: Helvetica;
+  opacity: .9;
 }
 
 .teaofthemonth {
@@ -153,4 +172,73 @@ margin-top: 18px;
 #pic5 {
   background-image: url("./images/img-bedford-bizarre.jpg");
   background-size: contain;
+}
+
+/*this is for the locations*/
+
+.locations {
+  display: flex;
+  flex-direction: row;
+  background-image: url("./images/img-locations-background.jpg");
+  height: 500px;
+  margin-top: 1550px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.locblack {
+  display: flex;
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  margin: 40px;
+  position: relative;
+}
+
+#lacationstext {
+  position: absolute;
+  color: seashell;
+  margin-top: -190px;
+  opacity: .9;
+  font-weight: bold;
+  font-size: 36px;
+  font-family: Helvetica;
+}
+
+.loctext {
+  color: seashell;
+  text-align: center;
+  width: 100%;
+  opacity: .9;
+  font-size: 25px;
+  line-height: 65px;
+}
+
+#loctitle {
+  font-size: 1.17em;
+  font-family: Helvetica;
+  opacity: .9;
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+/*this is for the footer*/
+.footer {
+  width: 100%;
+  text-align: center;
+  color: seashell;
+  height: 200px;
+  opacity: .9;
+  font-family: Helvetica;
+  font-size: 22px
+}
+
+.copyright {
+  color: seashell;
+  opacity: .9;
+  font-family: Helvetica;
+  margin-bottom: 25px;
+  margin-left: 25px;
 }
