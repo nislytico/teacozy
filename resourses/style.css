@@ -16,7 +16,7 @@ body {
   z-index: 2;
   background-color: black;
 }
-
+/*this is the logo image*/
 #logo {
   background-image: url("./images/img-tea-cozy-logo.png");
   height: 50px;
@@ -30,7 +30,7 @@ body {
   z-index: 3;
   margin-top: 12px;
 }
-
+/*this is the container for ".navchil" (the top right nav)*/
 #rhnav {
   display: flex;
   position: fixed;
@@ -43,7 +43,7 @@ body {
   opacity: .9;
   min-width: 1100px;
 }
-
+/*children of the "#rhnav" container*/
 .navchil {
   margin-left: 10px;
   margin-right: 20px;
@@ -53,14 +53,17 @@ body {
   margin-top: 25px;
 }
 
-/*this is the main background image with its title*/
+
+/*this is the "Our Mission" background image with its title*/
+
+/*this is the container for "".mainimage" and "Our Mission"*/
 .mainimagecont {
   display: flex;
   width: 100%;
   justify-content: center;
   z-index: 1;
 }
-
+/*this is the image*/
 .mainimage {
   display: flex;
   background-image: url("./images/img-mission-background.jpg");
@@ -71,7 +74,7 @@ body {
   background-size: cover;
   min-width: 1100px;
 }
-
+/*thi is the background for the "Our Missions" title*/
 .ourmission {
   display: flex;
   flex-direction: column;
@@ -104,8 +107,10 @@ body {
   font-family: Helvetica;
 }
 
+
 /*this is the tea of the month section*/
 
+/*this is the container for the "Tea of the Month" text*/
 .tom {
   display: flex;
   flex-direction: column;
@@ -120,14 +125,14 @@ body {
   width: 100%;
   min-width: 1100px;
 }
-
+/*this is the "Tea of the Month" text*/
 #h4 {
   display: flex;
   margin-top: 0;
   font-family: Helvetica;
   opacity: .9;
 }
-
+/*this is the container for the images and the text below them*/
 .teaofthemonth {
   display: flex;
   flex-direction: row;
@@ -135,19 +140,16 @@ body {
   width: 100%;
   margin-top: 935px;
   justify-content: center;
-  align-items: center;
-  margin-left: 0%;
   position: absolute;
   min-width: 1100px;
 }
-
+/*these are the images*/
 .image {
-  display: flex;
   height: 200px;
   width: 300px;
   margin: 15px;
 }
-
+/*this is the text below the images*/
 .imgtext {
   color: seashell;
   text-align: center;
@@ -156,7 +158,7 @@ body {
   opacity: .9;
   margin-top: 10px;
 }
-
+/*these are the image url's*/
 #pic1 {
   background-image: url("./images/img-berryblitz.jpg");
   background-size: contain;
@@ -182,8 +184,9 @@ body {
   background-size: contain;
 }
 
-/*this is for the locations*/
+/*this is for the "locations"*/
 
+/*this is the "locations" container*/
 .locations {
   display: flex;
   flex-direction: row;
@@ -196,7 +199,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-
+/*these are the "locations" boxes*/
 .locblack {
   display: flex;
   height: 300px;
@@ -205,7 +208,7 @@ body {
   margin: 40px;
   position: relative;
 }
-
+/*this is the "Locations" title*/
 #lacationstext {
   position: absolute;
   color: seashell;
@@ -215,7 +218,7 @@ body {
   font-size: 36px;
   font-family: Helvetica;
 }
-
+/*this is the address in the location box*/
 .loctext {
   color: seashell;
   text-align: center;
@@ -224,7 +227,7 @@ body {
   font-size: 25px;
   line-height: 65px;
 }
-
+/*this is the titles in the location boxes*/
 #loctitle {
   font-size: 1.17em;
   font-family: Helvetica;
@@ -242,11 +245,12 @@ body {
   font-family: Helvetica;
   font-size: 22px
 }
-
+/*this is the copyright*/
 .copyright {
   color: seashell;
   opacity: .9;
   font-family: Helvetica;
   margin-bottom: 25px;
-  margin-left: 25px;
+  margin-left: 20px;
+  font-size: 22px;
 }
