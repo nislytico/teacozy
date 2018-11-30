@@ -1,6 +1,7 @@
 /*this affects entire body*/
 body {
   background-color: black;
+  min-width: 1100px;
 }
 
 
@@ -8,7 +9,7 @@ body {
 .header {
   height: 75px;
   width: 100%;
-  border-bottom: 1px solid seashell;
+  border-bottom: 2px solid seashell;
   margin-top: -8px;
   margin-left: -8px;
   position: fixed;
@@ -40,11 +41,12 @@ body {
   width: 100%;
   z-index: 3;
   opacity: .9;
+  min-width: 1100px;
 }
 
 .navchil {
   margin-left: 10px;
-  margin-right: 10px;
+  margin-right: 20px;
   font-size: 22px;
   font-family: Helvetica;
   color: seashell;
@@ -67,6 +69,7 @@ body {
   margin-top: 69px;
   position: absolute;
   background-size: cover;
+  min-width: 1100px;
 }
 
 .ourmission {
@@ -81,6 +84,7 @@ body {
   padding-top: 15px;
   padding-bottom: 10px;
   font-size: 1.5em;
+  min-width: 1100px;
 }
    /*this is the "Our Mission" text*/
 .text1 {
@@ -109,14 +113,16 @@ body {
   font-family: Helvetica;
   color: seashell;
   align-items: center;
-  margin-top: 800px;
+  margin-top: 815px;
   color: seashell;
   position: absolute;
-  margin-left: 35%;
   opacity: .9;
+  width: 100%;
+  min-width: 1100px;
 }
 
 #h4 {
+  display: flex;
   margin-top: 0;
   font-family: Helvetica;
   opacity: .9;
@@ -126,11 +132,13 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 1000px;
+  width: 100%;
   margin-top: 935px;
   justify-content: center;
-  margin-left: 10%;
+  align-items: center;
+  margin-left: 0%;
   position: absolute;
+  min-width: 1100px;
 }
 
 .image {
@@ -165,7 +173,7 @@ body {
 }
 
 #pic4 {
-  background-image: url("./images/img-donut.jpg");
+  background-image: url("./images/img-myrtle-ave.jpg");
   background-size: contain;
 }
 
